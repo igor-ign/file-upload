@@ -1,0 +1,44 @@
+.single__upload__container {
+  border: 1px solid black;
+  height: 200px;
+  padding: 0 20px;
+  text-align: center;
+  width: 500px;
+
+  > .container__empty {
+    text-align: left;
+  }
+
+  > .container__header {
+    align-items: center;
+    display: flex;
+
+    > .header__info {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+
+      > .info__title {
+        margin: 0;
+      }
+
+      > .info__description {
+        margin: 0;
+        text-align: justify;
+      }
+    }
+
+    > .header__input {
+      display: none;
+    }
+
+    > .input__label {
+      border-radius: 3px;
+      border: 1px solid red;
+      height: 60px;
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 150px;
+    }
+  }
+}
